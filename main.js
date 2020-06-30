@@ -1,5 +1,9 @@
 const newButton = document.createElement('button');
 document.body.appendChild(newButton)
+newButton.append('Remove')
+newButton.addEventListener('click', function(){
+newMain.remove()
+})
 const newMain = document.createElement('main');
 document.body.appendChild(newMain)
 const newImg = document.createElement('img');
